@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .main_cont{
+            display: flex;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            width: 100px;
+           
+        }
+        .b1{
+            margin-top: 10px;
+            left: 10000px;      
+            width: 40px;
+            background-color: red;
+            color: red;
+        }
+        .b2{
+            margin-top: 10px;
+            left: 10000px;      
+            width: 40px;
+            background-color: blue;
+            color:blue;
+        }
+        .b3{
+            margin-top: 10px;
+            left: 10000px;      
+            width: 40px;
+            background-color: green;
+            color: green;
+        }
+        .b4{
+            margin-top: 10px;
+            left: 10000px;      
+            width: 40px;
+            background-color: yellow;
+            color: yellow;
+        }
+        .b1:hover ,
+        .b2:hover ,
+        .b3:hover ,
+        .b4:hover {
+            width: 100px;
+            opacity: 100;
+            color: black;
+        }
+        .text{
+            display: flex;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="main_cont">
+            <div class="container">
+                <button class="b1">Button 1</button>
+                <button class="b2">Button 2</button>
+                <button class="b3">Button 3</button>
+                <button class="b4" >Button 4</button>
+                <!-- Add more buttons as needed -->
+            </div> 
+            <div class="text">
+                Hoverable Sidenav buttons <br>
+                Hover over the buttons in the left side navigation to open them.
+            </div>
+        </div>
+</body>
+</html>

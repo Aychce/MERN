@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .form-container {
+            width: 100%;
+            max-width: 300px;
+            margin: 0 auto;
+            display: flex;
+        }
+        .form-group {
+            margin-bottom: 10px;
+            /* display: inline-block; */
+            display: flex;
+        }
+        .form-label {
+            display: inline-block;
+            width: 100px;
+        }
+        .form-input {
+            width: calc(100% - 100px);
+        }
+    </style>
+</head>
+<body>
+
+<div class="form-container">
+    <form>
+        <div class="form-group">
+            <label class="form-label" for="fullname">Full Name:</label>
+            <input class="form-input" type="text" id="fullname" name="fullname">
+        </div>
+        <div class="form-group">
+            <label class="form-label" for="username">Username:</label>
+            <input class="form-input" type="text" id="username" name="username">
+        </div>
+        <div class="form-group">
+            <label class="form-label" for="password">Password:</label>
+            <input class="form-input" type="password" id="password" name="password">
+        </div>
+        <div class="form-group">
+            <label class="form-label" for="repassword">RePassword:</label>
+            <input class="form-input" type="password" id="repassword" name="repassword">
+        </div>
+        <div class="form-group">
+            <label class="form-label" for="address">Address:</label>
+            <input class="form-input" type="text" id="address" name="address">
+        </div>
+        <div class="form-group">
+            <label class="form-label" for="age">Age:</label>
+            <input class="form-input" type="number" id="age" name="age">
+        </div>
+        <div class="form-group">
+            <label class="form-label" for="gender">Gender:</label>
+            <select class="form-input" id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div>
+        <button type="submit">Save</button>
+    </form>
+</div>
+
+</body>
+</html>
